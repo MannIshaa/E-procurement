@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.otimus.opendataproject.activities.AgencyProjectDetails">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tender Notice No. and Status"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textView1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11/073/74"
+
+            android:textColor="@color/black"
+            android:id="@+id/textView2"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current"
+            android:textColor="@color/black"
+            android:id="@+id/textView3"
+            android:textSize="18sp"/>
+
+        <TextView
+
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contract Name:"
+            android:textSize="20sp"
+            android:id="@+id/textView4" />
+        <TextView
+
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DROPT/3371484/073/74-115"
+            android:textColor="@color/black"
+            android:id="@+id/textView5" />
+
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Issued by	Division Road Office, Pyuthan"
+
+            android:id="@+id/textView6" />
+        <TextView
+
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name of Work:"
+
+            android:id="@+id/textView7" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="18sp"
+
+            android:textStyle=""
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Earthwork and Retaining Wall Works in Libang Na Pa Sahari Sadak"
+            android:id="@+id/textView8"/>
+
+        <TextView
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notice Published Date / Published In:"
+
+
+            android:id="@+id/textView9" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="2017/02/22"
+            android:textSize="18sp"
+            android:id="@+id/textView10" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="10:00:00"
+            android:textSize="18sp"
+            android:id="@+id/textView11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Navayug Bodha Daily"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:id="@+id/textView12" />
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Date for Bid Purchase"
+            android:id="@+id/textView13" />
+
+        <TextView
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2017/03/09"
+            android:textColor="@color/black"
+            android:id="@+id/textView14" />
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Date for Bid Submission"
+
+            android:id="@+id/textView15" />
+        <TextView
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2017/03/10"
+            android:textColor="@color/black"
+            android:id="@+id/textView16" />
+        <TextView
+
+            android:layout_marginTop="18dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bid Opening Date"
+            android:id="@+id/textView17"
+            />
+        <TextView
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2017/03/10"
+            android:id="@+id/textView18"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@color/colorPrimaryDark"
+                app:fabSize="normal"
+                android:src="@drawable/ic_action_notification"
+                android:id="@+id/notificationbutton"
+                />
+
+
+
+
+
+
+
+</FrameLayout>
